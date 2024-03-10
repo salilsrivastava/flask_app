@@ -1,22 +1,53 @@
 {
   "module_names": [
     {
-      "branches": 0,
-      "branches_missing": 0,
-      "branches_partial": 0,
-      "coverage": 100.0,
+      "branches": 6,
+      "branches_missing": 2,
+      "branches_partial": 2,
+      "coverage": 86.20689655172414,
       "lines": [
         1,
+        2,
         3,
-        4
+        6,
+        8,
+        9,
+        10,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        61,
+        64,
+        65,
+        67,
+        68,
+        69,
+        70,
+        72,
+        73
       ],
-      "lines_not_covered": [],
-      "module": "helloworld",
-      "sum_lines": 3,
-      "sum_lines_not_covered": 0
+      "lines_not_covered": [
+        24,
+        69,
+        70,
+        73
+      ],
+      "module": "homepage",
+      "sum_lines": 29,
+      "sum_lines_not_covered": 4
     }
   ],
-  "overall_branch_coverage": 100,
-  "overall_branch_partial_coverage": 100,
-  "overall_coverage": 100.0
+  "overall_branch_coverage": 66.66666666666667,
+  "overall_branch_partial_coverage": 66.66666666666667,
+  "overall_coverage": 86.20689655172414
 }

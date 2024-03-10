@@ -18,7 +18,7 @@ running check
 creating flask_app-1.0.dev0
 creating flask_app-1.0.dev0\flask_app.egg-info
 copying files to flask_app-1.0.dev0...
-copying helloworld.py -> flask_app-1.0.dev0
+copying homepage.py -> flask_app-1.0.dev0
 copying setup.py -> flask_app-1.0.dev0
 copying flask_app.egg-info\PKG-INFO -> flask_app-1.0.dev0\flask_app.egg-info
 copying flask_app.egg-info\SOURCES.txt -> flask_app-1.0.dev0\flask_app.egg-info
