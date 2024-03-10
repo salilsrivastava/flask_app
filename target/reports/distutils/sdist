@@ -1,0 +1,33 @@
+running clean
+'build\lib' does not exist -- can't clean it
+'build\bdist.win-amd64' does not exist -- can't clean it
+'build\scripts-3.9' does not exist -- can't clean it
+running sdist
+running egg_info
+creating flask_app.egg-info
+writing flask_app.egg-info\PKG-INFO
+writing dependency_links to flask_app.egg-info\dependency_links.txt
+writing namespace_packages to flask_app.egg-info\namespace_packages.txt
+writing top-level names to flask_app.egg-info\top_level.txt
+writing manifest file 'flask_app.egg-info\SOURCES.txt'
+reading manifest file 'flask_app.egg-info\SOURCES.txt'
+writing manifest file 'flask_app.egg-info\SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+creating flask_app-1.0.dev0
+creating flask_app-1.0.dev0\flask_app.egg-info
+copying files to flask_app-1.0.dev0...
+copying helloworld.py -> flask_app-1.0.dev0
+copying setup.py -> flask_app-1.0.dev0
+copying flask_app.egg-info\PKG-INFO -> flask_app-1.0.dev0\flask_app.egg-info
+copying flask_app.egg-info\SOURCES.txt -> flask_app-1.0.dev0\flask_app.egg-info
+copying flask_app.egg-info\dependency_links.txt -> flask_app-1.0.dev0\flask_app.egg-info
+copying flask_app.egg-info\namespace_packages.txt -> flask_app-1.0.dev0\flask_app.egg-info
+copying flask_app.egg-info\top_level.txt -> flask_app-1.0.dev0\flask_app.egg-info
+copying flask_app.egg-info\zip-safe -> flask_app-1.0.dev0\flask_app.egg-info
+copying flask_app.egg-info\SOURCES.txt -> flask_app-1.0.dev0\flask_app.egg-info
+Writing flask_app-1.0.dev0\setup.cfg
+creating dist
+Creating tar archive
+removing 'flask_app-1.0.dev0' (and everything under it)
