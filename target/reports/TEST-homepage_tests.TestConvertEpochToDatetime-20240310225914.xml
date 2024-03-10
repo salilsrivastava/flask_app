@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="homepage_tests.TestConvertEpochToDatetime-20240310225914" tests="3" file="homepage_tests.py" time="0.009" timestamp="2024-03-10T22:59:15" failures="0" errors="1" skipped="0">
+	<testcase classname="homepage_tests.TestConvertEpochToDatetime" name="test_convert_epoch_to_datetime_negative" time="0.002" timestamp="2024-03-10T22:59:15"/>
+	<testcase classname="homepage_tests.TestConvertEpochToDatetime" name="test_convert_epoch_to_datetime_valid" time="0.002" timestamp="2024-03-10T22:59:15"/>
+	<testcase classname="homepage_tests.TestConvertEpochToDatetime" name="test_convert_epoch_to_datetime_invalid" time="0.006" timestamp="2024-03-10T22:59:15">
+		<error type="UnboundLocalError" message="local variable 'html_result' referenced before assignment"><![CDATA[Traceback (most recent call last):
+  File "C:\Python39\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "C:\Python39\lib\unittest\case.py", line 593, in run
+    self._callTestMethod(testMethod)
+  File "C:\Python39\lib\unittest\case.py", line 550, in _callTestMethod
+    method()
+  File "d:\bits\devops\random\flask_app\src\unittest\python\homepage_tests.py", line 23, in test_convert_epoch_to_datetime_invalid
+    print(html_result)
+UnboundLocalError: local variable 'html_result' referenced before assignment
+]]></error>
+	</testcase>
+</testsuite>

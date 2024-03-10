@@ -1,20 +1,8 @@
 from datetime import datetime
-from flask import Flask, request 
 import pytz
 
-
-homepage = Flask(__name__)
-
-@homepage.route('/')
-def hello():
-    return 'Hello, World!'
-
-
-
 #/convert_epoch?epoch_time=<epoch time>
-@homepage.route('/convert_epoch', methods=['GET'])
-def convert_epoch_to_datetime():
-    epoch_time = request.args.get('epoch_time')
+def convert_epoch_to_datetime(epoch_time):
     if epoch_time is None:
         return '<h1>Error: Epoch time parameter is required.</h1>', 400
 
@@ -68,6 +56,3 @@ def epoch_to_datetime(epoch_time):
         return utc_time.strftime('%Y-%m-%d %H:%M:%S')
     except Exception as e:
         return str(e)
-
-if __name__ == '__main__':
-    homepage.run(debug=True)

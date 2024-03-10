@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="homepage_tests.TestConvertEpochToDatetime-20240310225725" tests="3" file="homepage_tests.py" time="0.011" timestamp="2024-03-10T22:57:26" failures="1" errors="0" skipped="0">
+	<testcase classname="homepage_tests.TestConvertEpochToDatetime" name="test_convert_epoch_to_datetime_negative" time="0.002" timestamp="2024-03-10T22:57:26"/>
+	<testcase classname="homepage_tests.TestConvertEpochToDatetime" name="test_convert_epoch_to_datetime_valid" time="0.001" timestamp="2024-03-10T22:57:26"/>
+	<testcase classname="homepage_tests.TestConvertEpochToDatetime" name="test_convert_epoch_to_datetime_invalid" time="0.008" timestamp="2024-03-10T22:57:26">
+		<failure type="AssertionError" message="'Error: could not convert string to float' not found in (&quot;&lt;h1&gt;Error: could not convert string to float: 'invalid_epoch_time'&lt;/h1&gt;&quot;, 400)"><![CDATA[Traceback (most recent call last):
+  File "C:\Python39\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "C:\Python39\lib\unittest\case.py", line 593, in run
+    self._callTestMethod(testMethod)
+  File "C:\Python39\lib\unittest\case.py", line 550, in _callTestMethod
+    method()
+  File "d:\bits\devops\random\flask_app\src\unittest\python\homepage_tests.py", line 26, in test_convert_epoch_to_datetime_invalid
+    self.assertIn('Error: could not convert string to float', html_result)
+  File "C:\Python39\lib\unittest\case.py", line 1098, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python39\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: 'Error: could not convert string to float' not found in ("<h1>Error: could not convert string to float: 'invalid_epoch_time'</h1>", 400)
+]]></failure>
+	</testcase>
+</testsuite>

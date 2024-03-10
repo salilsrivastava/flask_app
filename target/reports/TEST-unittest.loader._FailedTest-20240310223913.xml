@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="unittest.loader._FailedTest-20240310223913" tests="1" file="unittest/loader.py" time="0.005" timestamp="2024-03-10T22:39:13" failures="0" errors="1" skipped="0">
+	<testcase classname="unittest.loader._FailedTest" name="homepage_tests" time="0.005" timestamp="2024-03-10T22:39:13">
+		<error type="ImportError" message="Failed to import test module: homepage_tests
+Traceback (most recent call last):
+  File &quot;C:\Python39\lib\unittest\loader.py&quot;, line 154, in loadTestsFromName
+    module = __import__(module_name)
+  File &quot;d:\bits\devops\random\flask_app\src\unittest\python\homepage_tests.py&quot;, line 3, in &lt;module&gt;
+    from homepage import homepage
+ImportError: cannot import name 'homepage' from 'homepage' (d:\bits\devops\random\flask_app\src\main\python\homepage.py)
+"><![CDATA[Traceback (most recent call last):
+  File "C:\Python39\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "C:\Python39\lib\unittest\case.py", line 593, in run
+    self._callTestMethod(testMethod)
+  File "C:\Python39\lib\unittest\case.py", line 550, in _callTestMethod
+    method()
+  File "C:\Python39\lib\unittest\loader.py", line 34, in testFailure
+    raise self._exception
+ImportError: Failed to import test module: homepage_tests
+Traceback (most recent call last):
+  File "C:\Python39\lib\unittest\loader.py", line 154, in loadTestsFromName
+    module = __import__(module_name)
+  File "d:\bits\devops\random\flask_app\src\unittest\python\homepage_tests.py", line 3, in <module>
+    from homepage import homepage
+ImportError: cannot import name 'homepage' from 'homepage' (d:\bits\devops\random\flask_app\src\main\python\homepage.py)
+
+]]></error>
+	</testcase>
+</testsuite>

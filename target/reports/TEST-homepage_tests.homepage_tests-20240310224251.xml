@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="homepage_tests.homepage_tests-20240310224251" tests="1" file="homepage_tests.py" time="0.005" timestamp="2024-03-10T22:42:52" failures="0" errors="1" skipped="0">
+	<testcase classname="homepage_tests.homepage_tests" name="test_convert_epoch_to_datetime" time="0.005" timestamp="2024-03-10T22:42:52">
+		<error type="AttributeError" message="'str' object has no attribute 'data'"><![CDATA[Traceback (most recent call last):
+  File "C:\Python39\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "C:\Python39\lib\unittest\case.py", line 593, in run
+    self._callTestMethod(testMethod)
+  File "C:\Python39\lib\unittest\case.py", line 550, in _callTestMethod
+    method()
+  File "d:\bits\devops\random\flask_app\src\unittest\python\homepage_tests.py", line 10, in test_convert_epoch_to_datetime
+    self.assertIn(b'<h1>Converted Datetime:</h1>', response.data)
+AttributeError: 'str' object has no attribute 'data'
+]]></error>
+	</testcase>
+</testsuite>

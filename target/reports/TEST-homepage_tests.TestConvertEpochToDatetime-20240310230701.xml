@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="homepage_tests.TestConvertEpochToDatetime-20240310230701" tests="4" file="homepage_tests.py" time="0.006" timestamp="2024-03-10T23:07:01" failures="0" errors="0" skipped="0">
+	<testcase classname="homepage_tests.TestConvertEpochToDatetime" name="test_convert_epoch_to_datetime_negative" time="0.001" timestamp="2024-03-10T23:07:01"/>
+	<testcase classname="homepage_tests.TestConvertEpochToDatetime" name="test_convert_epoch_to_datetime_none" time="0.002" timestamp="2024-03-10T23:07:01"/>
+	<testcase classname="homepage_tests.TestConvertEpochToDatetime" name="test_convert_epoch_to_datetime_valid" time="0.002" timestamp="2024-03-10T23:07:01"/>
+	<testcase classname="homepage_tests.TestConvertEpochToDatetime" name="test_convert_epoch_to_datetime_zero" time="0.001" timestamp="2024-03-10T23:07:01"/>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="homepage_tests.TestConvertEpochToDatetime-20240310225007" tests="1" file="homepage_tests.py" time="0.008" timestamp="2024-03-10T22:50:07" failures="0" errors="1" skipped="0">
+	<testcase classname="homepage_tests.TestConvertEpochToDatetime" name="test_convert_epoch_to_datetime_valid" time="0.008" timestamp="2024-03-10T22:50:07">
+		<error type="TypeError" message="'in &lt;string&gt;' requires string as left operand, not bytes"><![CDATA[Traceback (most recent call last):
+  File "C:\Python39\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "C:\Python39\lib\unittest\case.py", line 593, in run
+    self._callTestMethod(testMethod)
+  File "C:\Python39\lib\unittest\case.py", line 550, in _callTestMethod
+    method()
+  File "d:\bits\devops\random\flask_app\src\unittest\python\homepage_tests.py", line 38, in test_convert_epoch_to_datetime_valid
+    self.assertIn(b'2024-03-09 18:38:27', html_result)
+  File "C:\Python39\lib\unittest\case.py", line 1095, in assertIn
+    if member not in container:
+TypeError: 'in <string>' requires string as left operand, not bytes
+]]></error>
+	</testcase>
+</testsuite>

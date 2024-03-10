@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="homepage_tests.TestConvertEpochToDatetime-20240310230259" tests="3" file="homepage_tests.py" time="0.015" timestamp="2024-03-10T23:02:59" failures="1" errors="0" skipped="0">
+	<testcase classname="homepage_tests.TestConvertEpochToDatetime" name="test_convert_epoch_to_datetime_negative" time="0.002" timestamp="2024-03-10T23:02:59"/>
+	<testcase classname="homepage_tests.TestConvertEpochToDatetime" name="test_convert_epoch_to_datetime_valid" time="0.002" timestamp="2024-03-10T23:02:59"/>
+	<testcase classname="homepage_tests.TestConvertEpochToDatetime" name="test_convert_epoch_to_datetime_zero" time="0.012" timestamp="2024-03-10T23:02:59">
+		<failure type="AssertionError" message="'&lt;h1&gt;Error: Epoch time cannot be negative.&lt;/h1&gt;' not found in '\n    &lt;html&gt;\n    &lt;head&gt;\n        &lt;style&gt;\n            body {\n                font-family: Arial, sans-serif;\n                background-color: #f2f2f2;\n            }\n            .container {\n                margin: 50px auto;\n                padding: 20px;\n                background-color: #fff;\n                border-radius: 5px;\n                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n                width: 400px;\n            }\n            h1 {\n                color: #333;\n            }\n            p {\n                color: #666;\n            }\n        &lt;/style&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n        &lt;div class=&quot;container&quot;&gt;\n            &lt;h1&gt;Converted Datetime:&lt;/h1&gt;\n            &lt;p&gt;1970-01-01 00:00:00&lt;/p&gt;\n        &lt;/div&gt;\n    &lt;/body&gt;\n    &lt;/html&gt;\n    '"><![CDATA[Traceback (most recent call last):
+  File "C:\Python39\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "C:\Python39\lib\unittest\case.py", line 593, in run
+    self._callTestMethod(testMethod)
+  File "C:\Python39\lib\unittest\case.py", line 550, in _callTestMethod
+    method()
+  File "d:\bits\devops\random\flask_app\src\unittest\python\homepage_tests.py", line 26, in test_convert_epoch_to_datetime_zero
+    self.assertIn('<h1>Error: Epoch time cannot be negative.</h1>', html_result)
+  File "C:\Python39\lib\unittest\case.py", line 1098, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python39\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '<h1>Error: Epoch time cannot be negative.</h1>' not found in '\n    <html>\n    <head>\n        <style>\n            body {\n                font-family: Arial, sans-serif;\n                background-color: #f2f2f2;\n            }\n            .container {\n                margin: 50px auto;\n                padding: 20px;\n                background-color: #fff;\n                border-radius: 5px;\n                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n                width: 400px;\n            }\n            h1 {\n                color: #333;\n            }\n            p {\n                color: #666;\n            }\n        </style>\n    </head>\n    <body>\n        <div class="container">\n            <h1>Converted Datetime:</h1>\n            <p>1970-01-01 00:00:00</p>\n        </div>\n    </body>\n    </html>\n    '
+]]></failure>
+	</testcase>
+</testsuite>
